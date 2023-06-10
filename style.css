@@ -70,6 +70,14 @@ img{
 
 }
 
+.htext{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.homeEnd{
+    justify-content: end;
+}
 
 @media screen and (max-width:1045px)  {
 
@@ -77,5 +85,25 @@ img{
         margin: 0;
         padding: 0;
     }
+
+    .boxes{
+        margin-top: 6%;
+    }
     
+}
+
+@media screen and (max-width:400px) {
+    .boxes{
+        margin-top: 10%;
+    }
+
+    .htext{
+        font-size: 2rem;
+        margin-top: 5%;
+        
+    }
+
+    .homeEnd{
+        justify-content: center;
+    }
 }

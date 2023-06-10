@@ -7,7 +7,7 @@ homeTopContent.className="col-lg-10"
 homeTop.appendChild(homeTopContent)
 
 let homeP=document.createElement("h2")
-homeP.className="text-center mt-5"
+homeP.className="htext"
 homeP.style.fontSize="4rem"
 homeP.innerHTML="TOKAT'IN İLK VE TEK ÜRÜN KARŞILAŞTIRMA SİTESİ"
 homeTopContent.appendChild(homeP)
@@ -19,7 +19,7 @@ homeTopContent.appendChild(homeC)
 
 
 let homeEnd=document.createElement("div")
-homeEnd.className="row justify-content-end mt-5"
+homeEnd.className="row mt-5 homeEnd"
 document.querySelector(".homeBg").appendChild(homeEnd)
 
 let boxes=document.createElement("div")
