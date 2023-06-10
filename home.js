@@ -1,9 +1,9 @@
 let homeTop=document.createElement("div")
-homeTop.className="row justify-content-end"
+homeTop.className="row homeTopCss"
 document.querySelector(".homeBg").appendChild(homeTop)
 
 let homeTopContent=document.createElement("div")
-homeTopContent.className="col-lg-10"
+homeTopContent.className="col-lg-10 col-12"
 homeTop.appendChild(homeTopContent)
 
 let homeP=document.createElement("h2")

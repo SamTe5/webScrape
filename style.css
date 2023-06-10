@@ -79,6 +79,10 @@ img{
     justify-content: end;
 }
 
+.homeTopCss{
+    justify-content: end;
+}
+
 @media screen and (max-width:1045px)  {
 
     .textim{
@@ -99,8 +103,12 @@ img{
 
     .htext{
         font-size: 2rem;
-        margin-top: 5%;
+        margin-top: 2%;
         
+    }
+
+    .homeTopCss{
+        justify-content: center;
     }
 
     .homeEnd{
