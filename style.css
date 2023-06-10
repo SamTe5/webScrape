@@ -50,6 +50,7 @@ img{
    background-size: contain;
    background-repeat: no-repeat;
    background-position: left;
+
    
 }
 
@@ -72,6 +73,9 @@ img{
 
 @media screen and (max-width:1045px)  {
 
-    
+    .textim{
+        margin: 0;
+        padding: 0;
+    }
     
 }

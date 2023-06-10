@@ -3,7 +3,7 @@ homeTop.className="row justify-content-end"
 document.querySelector(".homeBg").appendChild(homeTop)
 
 let homeTopContent=document.createElement("div")
-homeTopContent.className="col-10"
+homeTopContent.className="col-lg-10"
 homeTop.appendChild(homeTopContent)
 
 let homeP=document.createElement("h2")
@@ -13,7 +13,7 @@ homeP.innerHTML="TOKAT'IN İLK VE TEK ÜRÜN KARŞILAŞTIRMA SİTESİ"
 homeTopContent.appendChild(homeP)
 
 let homeC=document.createElement("p")
-homeC.className="text-center mx-5 px-5"
+homeC.className="text-center mx-3 px-3 textim"
 homeC.innerHTML="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis facere obcaecati ad. Nobis tenetur fugit fugiat distinctio quisquam a praesentium culpa enim quidem pariatur veritatis, sint, facilis rem eum velit adipisci debitis commodi omnis vitae, aspernatur nemo animi dicta! Ad sit obcaecati velit? Natus, blanditiis nobis odit quod cupiditate aperiam."
 homeTopContent.appendChild(homeC)
 
