@@ -1,0 +1,378 @@
+{
+  "erenler": [
+    {
+      "Name": "karpuz kg",
+      "Price": "7,95 ₺"
+    },
+    {
+      "Name": "muz yerli̇ kg.",
+      "Price": "34,95 ₺"
+    },
+    {
+      "Name": "armut santa mari̇a kg",
+      "Price": "33,95 ₺"
+    },
+    {
+      "Name": "armut deveci̇ kg",
+      "Price": "32,95 ₺"
+    },
+    {
+      "Name": "elma golden lüx",
+      "Price": "17,95 ₺"
+    },
+    {
+      "Name": "elma starki̇ng lüx kg",
+      "Price": "16,95 ₺"
+    },
+    {
+      "Name": "şeftali̇ kg",
+      "Price": "34,95 ₺"
+    },
+    {
+      "Name": "kavun çi̇l kg",
+      "Price": "17,95 ₺"
+    },
+    {
+      "Name": "kavun sari kg",
+      "Price": "15,95 ₺"
+    },
+    {
+      "Name": "çi̇lek kg [1]",
+      "Price": "34,95 ₺"
+    }
+  ],
+  "niktas": [
+    {
+      "Name": "avokado *adet*",
+      "Price": "₺24,95"
+    },
+    {
+      "Name": "karpuz *kg*",
+      "Price": "₺8,95"
+    },
+    {
+      "Name": "muz yerli̇ *kg*",
+      "Price": "₺34,95"
+    },
+    {
+      "Name": "muz i̇thal *kg*",
+      "Price": "₺49,95"
+    },
+    {
+      "Name": "armut santamari̇a *kg*",
+      "Price": "₺31,95"
+    },
+    {
+      "Name": "armut deveci̇ (naşa) *kg*",
+      "Price": "₺31,95"
+    },
+    {
+      "Name": "ananas duble *adet*",
+      "Price": "₺59,95"
+    },
+    {
+      "Name": "elma golden *kg*",
+      "Price": "₺19,95"
+    },
+    {
+      "Name": "elma gransi̇mi̇t *kg*",
+      "Price": "₺17,95"
+    },
+    {
+      "Name": "elma starki̇n *kg*",
+      "Price": "₺17,95"
+    },
+    {
+      "Name": "portakal fi̇ni̇ke *kg*",
+      "Price": "₺19,95"
+    },
+    {
+      "Name": "şeftali̇ bursa",
+      "Price": "₺29,95"
+    },
+    {
+      "Name": "kavun kasa *kg*",
+      "Price": "₺9,95"
+    },
+    {
+      "Name": "kavun çi̇l *kg*",
+      "Price": "₺18,95"
+    },
+    {
+      "Name": "çi̇lek *kg*",
+      "Price": "₺37,95"
+    }
+  ],
+  "migros": [
+    {
+      "Name": "karpuz kg",
+      "Price": "7,95 tl"
+    },
+    {
+      "Name": "karpuz mini kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "karpuz çekirdeksiz kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "muz i̇thal kg",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "doğu karadeniz kivisi kg",
+      "Price": "44,90 tl"
+    },
+    {
+      "Name": "armut santa maria kg",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "armut deveci kg",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "elma golden kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "elma granny smith kg",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "elma starking kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "portakal sıkma file kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "portakal kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "şeftali nektarin kg",
+      "Price": "36,90 tl"
+    },
+    {
+      "Name": "yassı şeftali kg",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "kavun kırkağaç kg",
+      "Price": "24,90 tl"
+    },
+    {
+      "Name": "kavun sera kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "erik papaz kg",
+      "Price": "43,90 tl"
+    },
+    {
+      "Name": "erik angelica kg",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "del monte meyve salatası 4'lü ananas 113*4 g",
+      "Price": "119,90 tl"
+    },
+    {
+      "Name": "del monte meyve salatası şeftali  227 g",
+      "Price": "54,90 tl"
+    },
+    {
+      "Name": "del monte meyve salatası 4'lü şeftali 113*4 g",
+      "Price": "119,90 tl"
+    },
+    {
+      "Name": "kiraz yer (altın çilek) 100 g",
+      "Price": "25,90 tl"
+    },
+    {
+      "Name": "excelente altın çilek paket 100 g",
+      "Price": "69,90 tl"
+    }
+  ],
+  "carreforsa": [
+    {
+      "Name": "avokado adet",
+      "Price": "7,90 tl"
+    },
+    {
+      "Name": "karpuz kg",
+      "Price": "6,95 tl"
+    },
+    {
+      "Name": "yerli muz kg",
+      "Price": "30,90 tl"
+    },
+    {
+      "Name": "kivi kg",
+      "Price": "44,95 tl"
+    },
+    {
+      "Name": "armut santa maria kg",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "ananas adet",
+      "Price": "44,95 tl"
+    },
+    {
+      "Name": "valensiya portakal kg",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "şeftali  kg",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "şeftali yassı",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "kavun kırkağaç kg",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "kavun galya kg",
+      "Price": "21,95 tl"
+    },
+    {
+      "Name": "papaz erik gurme",
+      "Price": "52,90 tl"
+    },
+    {
+      "Name": "malta erik",
+      "Price": "53,90 tl"
+    },
+    {
+      "Name": "avokado gurme yemeye hazır adet",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "siyah karpuz kg",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "çekirdeksiz karpuz kg",
+      "Price": "14,90 tl"
+    },
+    {
+      "Name": "mini karpuz kg",
+      "Price": "13,90 tl"
+    },
+    {
+      "Name": "i̇thal muz kg",
+      "Price": "54,90 tl"
+    },
+    {
+      "Name": "çilek kg",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "erik papaz kg",
+      "Price": "42,90 tl"
+    }
+  ],
+  "sok": [
+    {
+      "Name": "avokado / adet",
+      "Price": "11,95"
+    },
+    {
+      "Name": "karpuz kg",
+      "Price": "7,95"
+    },
+    {
+      "Name": "yerli muz kg",
+      "Price": "34,90"
+    },
+    {
+      "Name": "kivi kg",
+      "Price": "29,90"
+    },
+    {
+      "Name": "armut deveci kg",
+      "Price": "29,90"
+    },
+    {
+      "Name": "elma golden kg",
+      "Price": "19,90"
+    },
+    {
+      "Name": "elma granny kg",
+      "Price": "29,90"
+    },
+    {
+      "Name": "elma starking kg.",
+      "Price": "19,90"
+    },
+    {
+      "Name": "galya kavun",
+      "Price": "24,90"
+    },
+    {
+      "Name": "çilek dökme kg",
+      "Price": "34,90"
+    },
+    {
+      "Name": "çilek paket 500 gr",
+      "Price": "24,90"
+    },
+    {
+      "Name": "erik malta kg.",
+      "Price": "44,90"
+    }
+  ],
+  "a101": [
+    {
+      "Name": "avokado - adet",
+      "Price": "₺7,50"
+    },
+    {
+      "Name": "karpuz - kg",
+      "Price": "₺6,50"
+    },
+    {
+      "Name": "muz yerli - kg",
+      "Price": "₺31,90"
+    },
+    {
+      "Name": "muz i̇thal - kg",
+      "Price": "₺39,90"
+    },
+    {
+      "Name": "ananas - adet",
+      "Price": "₺39,75"
+    },
+    {
+      "Name": "elma granny smith - kg",
+      "Price": "₺22,50"
+    },
+    {
+      "Name": "elma starking - kg",
+      "Price": "₺16,75"
+    },
+    {
+      "Name": "portakal sıkma file - kg",
+      "Price": "₺15,50"
+    },
+    {
+      "Name": "kavun - 4,5 kg",
+      "Price": "₺17,75"
+    },
+    {
+      "Name": "çilek paket - 250 g",
+      "Price": "₺21,90"
+    },
+    {
+      "Name": "erik paket - 250 g",
+      "Price": "₺26,95"
+    }
+  ]
+}
