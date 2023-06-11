@@ -5,6 +5,23 @@ fetch("priceE.json")
     const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"].sort()
     let newFruits = {}
 
+   
+    let indexTopPrice= value.erenler.concat(value.niktas,value.a101,value.migros,value.carreforsa,value.sok)
+    console.log(indexTopPrice[0])
+    indexTopPrice.sort(function(a, b) {
+      var PriceA = a.Price
+      var PriceB = b.Price
+    
+      if (PriceA < PriceB) {
+        return -1;
+      }
+      if (PriceA > PriceB) {
+        return 1;
+      }
+      return 0;
+    });
+    console.log(indexTopPrice)
+
     for (let i = 0; i < fruits.length; i++) {
       newFruits[fruits[i]] = {
         erenler: [],
@@ -15,6 +32,8 @@ fetch("priceE.json")
         carreforsa: []
 
       }
+
+    
 
       for (const erenlerMeyve of value.erenler) {
         if (erenlerMeyve.Name.includes(fruits[i])) {
@@ -69,6 +88,20 @@ fetch("priceE.json")
           })
         }
       }
+    }
+
+    let indexPrices=[]
+    for(let k=0;k<fruits.length;k++){
+
+      let erenlerPrice=newFruits[k].erenler.Price
+      let niktasPrice=newFruits[k].niktas.Price
+      let migrosPrice=newFruits[k].migros.Price
+      let carreforsaPrice=newFruits[k].carreforsa.Price
+      let a101Price=newFruits[k].a101.Price
+      let sokPrice=newFruits[k].sok.Price
+      
+
+      if()
     }
 
     console.log(newFruits)
