@@ -55,7 +55,8 @@ box1.addEventListener("click", function () {
 
 let boxSlider = document.createElement("div")
 boxSlider.className = "carousel slide"
-boxSlider.setAttribute("data-bs-ride", "true")
+boxSlider.id="carouselExampleRide"
+boxSlider.setAttribute("data-bs-ride", "carousel")
 box1C.appendChild(boxSlider)
 
 let inner = document.createElement("div")
@@ -158,19 +159,22 @@ for (let i = 0; i < 4; i++) {
 
 
 
-let newDizi = dizim.map(element => {
-  let html=""
-  html +=`
-    <div class="carousel-item active">
-      <p>${element.Name}</p>
-      <p>${element.Price}</p>
+let newDizi = dizim.map((element, index) => {
+  let html = `
+    <div class="carousel-item ${index === 0 ? 'active' : ''}">
+    
+        <p>${element.Name}</p>
+        <p>${element.Price}</p>
+      
     </div>
+  `;
+  return html;
+});
 
-  `
-  return html
-})
+console.log(newDizi);
 
-console.log(newDizi)
+inner.innerHTML = newDizi.join("");
 
 
-box1C.innerHTML = newDizi.join("")
+
+
