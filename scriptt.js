@@ -76,8 +76,9 @@ fetch("priceE.json")
       }
     }
 
+    const fruitsum = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
     localStorage.setItem("prices",JSON.stringify(newFruits))
-    localStorage.setItem("fruits",JSON.stringify(fruits))
+    localStorage.setItem("fruits",JSON.stringify(fruitsum))
 
     let meyveYazdir = Object.keys(newFruits).map(element => {
 

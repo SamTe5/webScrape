@@ -114,6 +114,48 @@ box5C.classList.add("boxesC")
 box5.appendChild(box5C)
 
 
-let gelenPrices=JSON.parse(localStorage.getItem("prices"))
-let gelenFruits=JSON.parse(localStorage.getItem("fruits"))
+let gelenPrices = JSON.parse(localStorage.getItem("prices"));
+let gelenFruits = JSON.parse(localStorage.getItem("fruits"));
 
+console.log(gelenPrices)
+console.log(gelenFruits)
+
+for (let i = 0; i < gelenFruits.length; i++) {
+    if(gelenPrices[i].erenler!=""){
+        var erenlerMeyve = gelenPrices[i].erenler.map(element => {
+            return element.Price;
+          });
+    }
+  
+  let niktasMeyve = gelenPrices[i].niktas.map(element => {
+    return element.Price;
+  });
+  let migrosMeyve = gelenPrices[i].migros.map(element => {
+    return element.Price;
+  });
+  let a101Meyve = gelenPrices[i].a101.map(element => {
+    return element.Price;
+  });
+  let sokMeyve = gelenPrices[i].sok.map(element => {
+    return element.Price;
+  });
+  let carreforsaMeyve = gelenPrices[i].carreforsa.map(element => {
+    return element.Price;
+  });
+
+  let priceCompare = [];
+
+  priceCompare.push(erenlerMeyve);
+  priceCompare.push(niktasMeyve);
+  priceCompare.push(migrosMeyve);
+  priceCompare.push(a101Meyve);
+  priceCompare.push(sokMeyve);
+  priceCompare.push(carreforsaMeyve);
+
+  priceCompare.sort((a, b) => a.length - b.length); // Alt dizileri uzunluğa göre sırala
+
+  let smallestArray = priceCompare[0];
+  let smallestElement = smallestArray[0];
+
+  box1Text.innerHTML = smallestElement;
+}
