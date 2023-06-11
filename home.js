@@ -44,6 +44,11 @@ let box1C=document.createElement("div")
 box1C.classList.add("boxesC")
 box1.appendChild(box1C)
 
+let box1Text=document.createElement("h6")
+box1Text.innerHTML="Günün En Uygun Meyvesi"
+box1C.appendChild(box1Text)
+
+
 box1.addEventListener("click",function(){
     window.location.href="fruits.html"
 })
