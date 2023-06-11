@@ -112,3 +112,8 @@ box5.appendChild(box5CP)
 let box5C=document.createElement("div")
 box5C.classList.add("boxesC")
 box5.appendChild(box5C)
+
+
+let gelenPrices=JSON.parse(localStorage.getItem("prices"))
+let gelenFruits=JSON.parse(localStorage.getItem("fruits"))
+
