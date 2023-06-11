@@ -116,46 +116,35 @@ box5.appendChild(box5C)
 
 let gelenPrices = JSON.parse(localStorage.getItem("prices"));
 let gelenFruits = JSON.parse(localStorage.getItem("fruits"));
-
 console.log(gelenPrices)
-console.log(gelenFruits)
 
-for (let i = 0; i < gelenFruits.length; i++) {
-    if(gelenPrices[i].erenler!=""){
-        var erenlerMeyve = gelenPrices[i].erenler.map(element => {
-            return element.Price;
-          });
-    }
-  
-  let niktasMeyve = gelenPrices[i].niktas.map(element => {
-    return element.Price;
-  });
-  let migrosMeyve = gelenPrices[i].migros.map(element => {
-    return element.Price;
-  });
-  let a101Meyve = gelenPrices[i].a101.map(element => {
-    return element.Price;
-  });
-  let sokMeyve = gelenPrices[i].sok.map(element => {
-    return element.Price;
-  });
-  let carreforsaMeyve = gelenPrices[i].carreforsa.map(element => {
-    return element.Price;
-  });
 
-  let priceCompare = [];
 
-  priceCompare.push(erenlerMeyve);
-  priceCompare.push(niktasMeyve);
-  priceCompare.push(migrosMeyve);
-  priceCompare.push(a101Meyve);
-  priceCompare.push(sokMeyve);
-  priceCompare.push(carreforsaMeyve);
+let dizim=[]
 
-  priceCompare.sort((a, b) => a.length - b.length); // Alt dizileri uzunluğa göre sırala
 
-  let smallestArray = priceCompare[0];
-  let smallestElement = smallestArray[0];
+let pricesArray = Object.values(gelenPrices);
 
-  box1Text.innerHTML = smallestElement;
+
+
+for(let i=0; i<4;i++){
+
+  let random=Math.floor(Math.random()*gelenFruits.length)
+  let randomSirket=Math.floor(Math.random()*6)
+  if(randomSirket==0 && pricesArray[random].erenler.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].erenler[0].Price})    
+  }else if(randomSirket==1 && pricesArray[random].niktas.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].niktas[0].Price}) 
+  }else if(randomSirket==2 && pricesArray[random].a101.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].a101[0].Price}) 
+  }else if(randomSirket==3 && pricesArray[random].migros.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].migros[0].Price}) 
+  }else if(randomSirket==4 && pricesArray[random].carreforsa.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].carreforsa[0].Price}) 
+  }else if(randomSirket==5 && pricesArray[random].sok.length>0){
+    dizim.push({Name:gelenFruits[random],Price:pricesArray[random].sok[0].Price}) 
+  }
 }
+console.log(dizim)
+
+box1Text.innerHTML=dizim[0].Name
