@@ -89,10 +89,8 @@ img{
     
 }
 
-.bgColorCard:hover{
-    background-image:url(images/fruitCard.jpg);
-    color: black;
-}
+
+
 
 @media screen and (max-width:1045px)  {
 

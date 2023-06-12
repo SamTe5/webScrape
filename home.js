@@ -57,7 +57,7 @@ boxSlider.setAttribute("data-bs-ride", "carousel")
 box1C.appendChild(boxSlider)
 
 let inner = document.createElement("div")
-inner.className = "carousel-inner text-white"
+inner.className = "carousel-inner"
 boxSlider.appendChild(inner)
 
 
@@ -157,9 +157,9 @@ for (let i = 0; i < 4; i++) {
 
 let newDizi = dizim.map((element, index) => {
   let html = `
-    <div class="carousel-item ${index === 0 ? 'active' : ''}">
+    <div class="carousel-item ${index === 0 ? 'active' : ''} text-white">
     
-        <p class="pt-4">${element.Name}</p>
+        <p class="pt-4">${element.Name.toUpperCase()}</p>
         <p>${element.Price}</p>
       
     </div>
