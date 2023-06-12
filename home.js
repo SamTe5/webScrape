@@ -41,12 +41,9 @@ box1CP.innerHTML = "MEYVELER"
 box1.appendChild(box1CP)
 
 let box1C = document.createElement("div")
-box1C.classList.add("boxesC")
-box1.appendChild(box1C)
+box1C.className="boxesC bgColorCard"
 
-let box1Text = document.createElement("h6")
-box1Text.innerHTML = "Günün En Uygun Meyvesi"
-box1C.appendChild(box1Text)
+box1.appendChild(box1C)
 
 
 box1.addEventListener("click", function () {
@@ -60,7 +57,7 @@ boxSlider.setAttribute("data-bs-ride", "carousel")
 box1C.appendChild(boxSlider)
 
 let inner = document.createElement("div")
-inner.className = "carousel-inner"
+inner.className = "carousel-inner text-white"
 boxSlider.appendChild(inner)
 
 
@@ -127,7 +124,8 @@ box5.appendChild(box5C)
 
 let gelenPrices = JSON.parse(localStorage.getItem("prices"));
 let gelenFruits = JSON.parse(localStorage.getItem("fruits"));
-console.log(gelenPrices)
+
+
 
 
 
@@ -135,8 +133,6 @@ let dizim = []
 
 
 let pricesArray = Object.values(gelenPrices);
-
-
 
 for (let i = 0; i < 4; i++) {
 
@@ -163,7 +159,7 @@ let newDizi = dizim.map((element, index) => {
   let html = `
     <div class="carousel-item ${index === 0 ? 'active' : ''}">
     
-        <p>${element.Name}</p>
+        <p class="pt-4">${element.Name}</p>
         <p>${element.Price}</p>
       
     </div>
@@ -171,7 +167,7 @@ let newDizi = dizim.map((element, index) => {
   return html;
 });
 
-console.log(newDizi);
+
 
 inner.innerHTML = newDizi.join("");
 
