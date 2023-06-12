@@ -70,6 +70,7 @@ img{
 }
 
 .htext{
+    font-size: 4rem;
     margin-top: 5%;
     text-align: center;
 }
@@ -111,8 +112,9 @@ img{
     }
 
     .htext{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 3%;
+        font-weight: bolder;
         
     }
 

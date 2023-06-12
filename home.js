@@ -8,7 +8,6 @@ homeTop.appendChild(homeTopContent)
 
 let homeP = document.createElement("h2")
 homeP.className = "htext"
-homeP.style.fontSize = "4rem"
 homeP.innerHTML = "TOKAT'IN İLK VE TEK ÜRÜN KARŞILAŞTIRMA SİTESİ"
 homeTopContent.appendChild(homeP)
 
