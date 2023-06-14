@@ -234,7 +234,44 @@ const fs = require('fs');
 
 
 
-  //Sebze
+  //SEBZE
+
+  
+
+  //Erenler
+
+  await page.goto("https://www.erenlercep.com/manav/meyve-sebze/sebze")
+
+  const pricesEV=await page.evaluate(()=>{
+    const eventsErenlerV=document.querySelectorAll(".product-layout")
+    const priceEv=[]
+    let vegetables=["bahçe b.","çarliston b.","dolma b.","kapya b.","sivri b.","cherry d.","domates","organik d.", "havuç","kabak","kırmızı lahana","limon","mantar","marul","nane",
+  "patlıcan","patates","roka","salatalık","silor s.","kuru soğan","dereotu","maydanoz","yeşil s.","salkım d.","fasulye","pancar"]
+
+    for (let x = 0; x < vegetables.length; x++) {
+      for (let i = 0; i < eventsErenlerV.length; i++) {
+        let urunM = eventsM[i].querySelector(".product-name").innerText.toLowerCase().includes(fruits[x]);
+
+        if (urunM == true) {
+          priceEv.push({
+            Name: eventsErenlerV[i].querySelector(".product-name").innerText.toLowerCase(),
+            Price: eventsErenlerV[i].querySelector(".amount").innerText.toLowerCase()
+          });
+        }
+      }
+    }
+
+    
+
+
+    return pricesEV
+  })
+
+
+  const jsonDataV = JSON.stringify(pricesEV, null, 2);
+  fs.writeFileSync('priceVegetable.json', jsonDataV);
+  console.log('Veriler priceVegetable.json dosyasına yazıldı.');
+
 
 
 
