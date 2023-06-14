@@ -300,7 +300,7 @@ const fs = require('fs');
 
   }
 
-  let newDataN = dataNV.flat()
+  let newDataN = dataNVS.flat()
 
 
   let birleşikVeriSebze={
