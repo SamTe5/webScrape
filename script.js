@@ -245,8 +245,8 @@ const fs = require('fs');
   const dataEV=await page.evaluate(()=>{
     const eventsErenlerV=document.querySelectorAll(".product-layout")
     const priceEv=[]
-   const vegetables=["bahçe b.","çarliston b.","dolma b.","kapya b.","sivri b.","cherry d.","domates","organik d.", "havuç","kabak","kırmızı lahana","limon","mantar","marul","nane",
-  "patlıcan","patates","roka","salatalık","silor s.","kuru soğan","dereotu","maydanoz","yeşil s.","salkım d.","fasulye","pancar"]
+   const vegetables=["bahçe b.","çarliston b.","dolma b.","kapya b.","sivri b.","cherry d.","domates","organik d.", "havuç","kabak","kirmizi lahana","limon","mantar","marul","nane",
+  "patlican","patates","roka","salatalik","silor s.","soğan","dereotu","maydanoz","yeşil s.","salkim d.","fasulye","pancar"]
 
     for (let x = 0; x < vegetables.length; x++) {
       for (let i = 0; i < eventsErenlerV.length; i++) {
