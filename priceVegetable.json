@@ -1,58 +1,146 @@
-[
-  {
-    "Name": "domates cheryy kg",
-    "Price": "25,95 ₺"
-  },
-  {
-    "Name": "domates kg.",
-    "Price": "22,95 ₺"
-  },
-  {
-    "Name": "domates organi̇k",
-    "Price": "25,95 ₺"
-  },
-  {
-    "Name": "havuç kg [1]",
-    "Price": "24,95 ₺"
-  },
-  {
-    "Name": "kabak kg [1]",
-    "Price": "16,95 ₺"
-  },
-  {
-    "Name": "mantar kg (1)",
-    "Price": "64,95 ₺"
-  },
-  {
-    "Name": "marul kivircik adet",
-    "Price": "14,95 ₺"
-  },
-  {
-    "Name": "nane bağ [manav]",
-    "Price": "4,95 ₺"
-  },
-  {
-    "Name": "patlican antalya kg",
-    "Price": "13,95 ₺"
-  },
-  {
-    "Name": "patates taze kg",
-    "Price": "17,95 ₺"
-  },
-  {
-    "Name": "roka bağ.",
-    "Price": "4,95 ₺"
-  },
-  {
-    "Name": "salatalik kg [1]",
-    "Price": "9,95 ₺"
-  },
-  {
-    "Name": "salatalik si̇lor kg",
-    "Price": "16,95 ₺"
-  },
-  {
-    "Name": "soğan kuru kg",
-    "Price": "11,95 ₺"
-  }
-]
+{
+  "erenler": [
+    {
+      "Name": "domates cheryy kg",
+      "Price": "25,95 ₺"
+    },
+    {
+      "Name": "domates kg.",
+      "Price": "22,95 ₺"
+    },
+    {
+      "Name": "domates organi̇k",
+      "Price": "25,95 ₺"
+    },
+    {
+      "Name": "havuç kg [1]",
+      "Price": "24,95 ₺"
+    },
+    {
+      "Name": "kabak kg [1]",
+      "Price": "16,95 ₺"
+    },
+    {
+      "Name": "mantar kg (1)",
+      "Price": "64,95 ₺"
+    },
+    {
+      "Name": "marul kivircik adet",
+      "Price": "14,95 ₺"
+    },
+    {
+      "Name": "nane bağ [manav]",
+      "Price": "4,95 ₺"
+    },
+    {
+      "Name": "patlican antalya kg",
+      "Price": "13,95 ₺"
+    },
+    {
+      "Name": "patates taze kg",
+      "Price": "17,95 ₺"
+    },
+    {
+      "Name": "roka bağ.",
+      "Price": "4,95 ₺"
+    },
+    {
+      "Name": "salatalik kg [1]",
+      "Price": "9,95 ₺"
+    },
+    {
+      "Name": "salatalik si̇lor kg",
+      "Price": "16,95 ₺"
+    },
+    {
+      "Name": "soğan kuru kg",
+      "Price": "11,95 ₺"
+    }
+  ],
+  "niktas": [
+    [
+      {
+        "Name": "domates antalya *kg*",
+        "Price": "₺18,95"
+      },
+      {
+        "Name": "domates cherry *kg*",
+        "Price": "₺23,95"
+      },
+      {
+        "Name": "domates eko *kg*",
+        "Price": "₺15,95"
+      },
+      {
+        "Name": "domates pembe (ayaş) *kg*",
+        "Price": "₺24,95"
+      },
+      {
+        "Name": "domates salkim kutu *kg*",
+        "Price": "₺19,95"
+      },
+      {
+        "Name": "havuç *açik*",
+        "Price": "₺27,95"
+      },
+      {
+        "Name": "kabak *kg*",
+        "Price": "₺16,95"
+      },
+      {
+        "Name": "kirmizi lahana *kg*",
+        "Price": "₺13,95"
+      },
+      {
+        "Name": "kültür mantari açik *kg*",
+        "Price": "₺59,95"
+      },
+      {
+        "Name": "kivircik marul *adet*",
+        "Price": "₺13,45"
+      },
+      {
+        "Name": "patlican *kg*",
+        "Price": "₺17,95"
+      },
+      {
+        "Name": "patates taze *kg*",
+        "Price": "₺16,95"
+      },
+      {
+        "Name": "roka demet *adet*",
+        "Price": "₺4,95"
+      },
+      {
+        "Name": "salatalik *kg*",
+        "Price": "₺14,95"
+      },
+      {
+        "Name": "salatalik si̇lor *kg*",
+        "Price": "₺24,95"
+      },
+      {
+        "Name": "kuru soğan *kg*",
+        "Price": "₺11,95"
+      },
+      {
+        "Name": "dereotu demet *adet*",
+        "Price": "₺5,95"
+      },
+      {
+        "Name": "maydanoz demet *adet*",
+        "Price": "₺4,95"
+      }
+    ],
+    [
+      {
+        "Name": "yeşi̇l nane demet *adet*",
+        "Price": "₺4,95"
+      },
+      {
+        "Name": "yeşi̇l soğan demet *adet*",
+        "Price": "₺7,95"
+      }
+    ]
+  ]
+}

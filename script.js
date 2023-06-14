@@ -9,39 +9,39 @@ const fs = require('fs');
 
   //Erenler Meyve
 
-  
-
-  
-    await page.goto("https://www.erenlercep.com/manav/meyve-sebze/meyve");
-    await page.waitForTimeout(2000);
-
-    const data = await page.evaluate(() => {
-      const events = document.querySelectorAll('.product-layout');
-      const prices = [];
-      const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma misket", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
-
-      for (let x = 0; x < fruits.length; x++) {
-
-        for (let i = 0; i < events.length; i++) {
-          let urunE = events[i].querySelector(".name").innerText.toLowerCase().includes(fruits[x])
-
-          if (urunE == true) {
-            prices.push({
-              Name: events[i].querySelector(".name").innerText.toLowerCase(),
-              Price: events[i].querySelector(".price-normal").innerText.toLowerCase()
-
-            });
-          }
 
 
+
+  await page.goto("https://www.erenlercep.com/manav/meyve-sebze/meyve");
+  await page.waitForTimeout(2000);
+
+  const data = await page.evaluate(() => {
+    const events = document.querySelectorAll('.product-layout');
+    const prices = [];
+    const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma misket", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
+
+    for (let x = 0; x < fruits.length; x++) {
+
+      for (let i = 0; i < events.length; i++) {
+        let urunE = events[i].querySelector(".name").innerText.toLowerCase().includes(fruits[x])
+
+        if (urunE == true) {
+          prices.push({
+            Name: events[i].querySelector(".name").innerText.toLowerCase(),
+            Price: events[i].querySelector(".price-normal").innerText.toLowerCase()
+
+          });
         }
+
+
       }
+    }
 
 
-      return prices;
-    });
-   
-  
+    return prices;
+  });
+
+
 
 
   //carreforsa
@@ -214,7 +214,7 @@ const fs = require('fs');
 
   let newDataC = dataC.flat()
   let newDataM = dataM.flat()
-  
+
 
 
   let birleşikVeriMeyve = {
@@ -236,17 +236,17 @@ const fs = require('fs');
 
   //SEBZE
 
-  
+
 
   //Erenler
 
   await page.goto("https://www.erenlercep.com/manav/meyve-sebze/sebze")
 
-  const dataEV=await page.evaluate(()=>{
-    const eventsErenlerV=document.querySelectorAll(".product-layout")
-    const priceEv=[]
-   const vegetables=["bahçe b.","çarliston b.","dolma b.","kapya b.","sivri b.","cherry d.","domates","organik d.", "havuç","kabak","kirmizi lahana","limon","mantar","marul","nane",
-  "patlican","patates","roka","salatalik","silor s.","soğan","dereotu","maydanoz","yeşil s.","salkim d.","fasulye","pancar"]
+  const dataEV = await page.evaluate(() => {
+    const eventsErenlerV = document.querySelectorAll(".product-layout")
+    const priceEv = []
+    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
 
     for (let x = 0; x < vegetables.length; x++) {
       for (let i = 0; i < eventsErenlerV.length; i++) {
@@ -261,42 +261,53 @@ const fs = require('fs');
       }
     }
 
-    
+
 
 
     return priceEv
   })
 
-  /*
-  const data = await page.evaluate(() => {
-      const events = document.querySelectorAll('.product-layout');
-      const prices = [];
-      const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma misket", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
+  //NİKTAŞ
 
-      for (let x = 0; x < fruits.length; x++) {
+  let dataNVS = []
 
-        for (let i = 0; i < events.length; i++) {
-          let urunE = events[i].querySelector(".name").innerText.toLowerCase().includes(fruits[x])
+  for (let n = 1; n < 3; n++) {
+    await page.goto(`https://niktasonline.com/sebze#/pageSize=24&viewMode=grid&orderBy=0&pageNumber=${n}`)
+    await page.waitForTimeout(2000);
+    const dataNV = await page.evaluate(() => {
+      const eventsNiktasV = document.querySelectorAll(".details")
+      const priceNv = []
+      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
 
-          if (urunE == true) {
-            prices.push({
-              Name: events[i].querySelector(".name").innerText.toLowerCase(),
-              Price: events[i].querySelector(".price-normal").innerText.toLowerCase()
-
-            });
+        for (let x = 0; x < vegetables.length; x++) {
+          for (let i = 0; i < eventsNiktasV.length; i++) {
+            let urunNV = eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase().includes(vegetables[x]);
+    
+            if (urunNV == true) {
+              priceNv.push({
+                Name: eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase(),
+                Price: eventsNiktasV[i].querySelector(".actual-price").innerText.toLowerCase()
+              });
+            }
           }
-
-
         }
-      }
+
+      return priceNv
+    })
+
+    dataNVS.push(dataNV)
+
+  }
 
 
-      return prices;
-    });
-  */
+  let birleşikVeriSebze={
+    erenler:dataEV,
+    niktas:dataNVS
+  }
 
 
-  const jsonDataV = JSON.stringify(dataEV, null, 2);
+  const jsonDataV = JSON.stringify(birleşikVeriSebze, null, 2);
   fs.writeFileSync('priceVegetable.json', jsonDataV);
   console.log('Veriler priceVegetable.json dosyasına yazıldı.');
 
