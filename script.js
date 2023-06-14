@@ -302,6 +302,42 @@ const fs = require('fs');
 
   let newDataN = dataNVS.flat()
 
+  //Migros
+/*
+  let dataMV = [];
+  for (let m = 1; m < 4; m++) {
+    await page.goto(`https://www.migros.com.tr/sebze-c-66?sayfa=${m}&sirala=cok-satanlar`)
+
+    await page.waitForTimeout(2000);
+
+
+
+    const pricesM = await page.evaluate(() => {
+      const eventsM = document.querySelectorAll(".mdc-card");
+      const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma misket", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
+      const pricesM = [];
+
+      for (let x = 0; x < fruits.length; x++) {
+        for (let i = 0; i < eventsM.length; i++) {
+          let urunM = eventsM[i].querySelector(".product-name").innerText.toLowerCase().includes(fruits[x]);
+
+          if (urunM == true) {
+            pricesM.push({
+              Name: eventsM[i].querySelector(".product-name").innerText.toLowerCase(),
+              Price: eventsM[i].querySelector(".amount").innerText.toLowerCase()
+            });
+          }
+        }
+      }
+
+      return pricesM;
+    });
+
+    dataM.push(pricesM);
+
+  }
+
+*/
 
   let birleşikVeriSebze={
     erenler:dataEV,
