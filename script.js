@@ -300,10 +300,12 @@ const fs = require('fs');
 
   }
 
+  let newDataN = dataNV.flat()
+
 
   let birleşikVeriSebze={
     erenler:dataEV,
-    niktas:dataNVS
+    niktas:newDataN
   }
 
 

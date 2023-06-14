@@ -75,6 +75,11 @@ let box2C = document.createElement("div")
 box2C.classList.add("boxesC")
 box2.appendChild(box2C)
 
+box2.addEventListener("click", function () {
+  window.location.href = "vegatable.html"
+})
+
+
 
 //
 
