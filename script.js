@@ -250,12 +250,12 @@ const fs = require('fs');
 
     for (let x = 0; x < vegetables.length; x++) {
       for (let i = 0; i < eventsErenlerV.length; i++) {
-        let urunM = eventsM[i].querySelector(".product-name").innerText.toLowerCase().includes(fruits[x]);
+        let urunEV = eventsErenlerV[i].querySelector(".name").innerText.toLowerCase().includes(fruits[x]);
 
-        if (urunM == true) {
+        if (urunEV == true) {
           priceEv.push({
-            Name: eventsErenlerV[i].querySelector(".product-name").innerText.toLowerCase(),
-            Price: eventsErenlerV[i].querySelector(".amount").innerText.toLowerCase()
+            Name: eventsErenlerV[i].querySelector(".name").innerText.toLowerCase(),
+            Price: eventsErenlerV[i].querySelector(".price-normal").innerText.toLowerCase()
           });
         }
       }
