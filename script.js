@@ -80,7 +80,7 @@ const fs = require('fs');
 
   }
 
-  console.log(dataC)
+  
 
   //Niktaş Meyve
 
@@ -408,6 +408,41 @@ const fs = require('fs');
   //Carreforsa
 
   
+  
+    await page.goto(`https://www.carrefoursa.com/sebze/c/1025?q=%3AbestSeller&show=All`)
+    await page.waitForTimeout(2000);
+
+
+    const dataCV = await page.evaluate(() => {
+      const eventsCV = document.querySelectorAll(".hover-box");
+      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+      const pricesCV = [];
+
+
+      for (let x = 0; x < vegetables.length; x++) {
+        for (let i = 0; i < eventsCV.length; i++) {
+          let urunCV = eventsCV[i].querySelector(".item-name").innerText.toLowerCase().includes(vegetables[x]);
+
+          if (urunCV == true) {
+            pricesCV.push({
+              Name: eventsCV[i].querySelector(".item-name").innerText.toLowerCase(),
+              Price: eventsCV[i].querySelector(".item-price").innerText.toLowerCase()
+            });
+          }
+        }
+      }
+
+
+      return pricesCV;
+    });
+
+    
+
+
+
+  
+
 
 
 
@@ -425,7 +460,8 @@ const fs = require('fs');
     niktas: newDataN,
     migros: newDataMV,
     sok: dataSV,
-    a101:dataAV
+    a101:dataAV,
+    carreforsa:dataCV
 
   }
 

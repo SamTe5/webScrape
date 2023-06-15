@@ -424,5 +424,263 @@
       "Name": "pancar paket - 500 g",
       "Price": "₺29,95"
     }
+  ],
+  "carreforsa": [
+    {
+      "Name": "salkım domates kg",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "kokteyl domates kg",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "pembe domates kg",
+      "Price": "27,90 tl"
+    },
+    {
+      "Name": "yerli domates pazar kg",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "domates şeker 250 g",
+      "Price": "15,90 tl"
+    },
+    {
+      "Name": "domates cherry 250 gr",
+      "Price": "23,90 tl"
+    },
+    {
+      "Name": "delimatoes güneşte kurutulmuş domates",
+      "Price": "27,90 tl"
+    },
+    {
+      "Name": "domates pembe tabak gurme",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "domates beef paket gurme",
+      "Price": "44,90 tl"
+    },
+    {
+      "Name": "organik domates kg",
+      "Price": "64,90 tl"
+    },
+    {
+      "Name": "kurutulmuş dilim domates",
+      "Price": "44,90 tl"
+    },
+    {
+      "Name": "domates kokteyl salkım paket gurme",
+      "Price": "55,90 tl"
+    },
+    {
+      "Name": "domates salkım paket",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "domates kokteyl paket gurme",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "havuç kg",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "eurofresh ayıklanmış barbunya havuç 500 g",
+      "Price": "22,95 tl"
+    },
+    {
+      "Name": "eurofresh ayıklanmış bezelye havuç 600 g",
+      "Price": "11,95 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış pırasa havuç 750 g",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "organik havuç",
+      "Price": "52,90 tl"
+    },
+    {
+      "Name": "sakız kabak kg",
+      "Price": "18,90 tl"
+    },
+    {
+      "Name": "kabak organik",
+      "Price": "58,90 tl"
+    },
+    {
+      "Name": "erüst mini kabak 250 gr",
+      "Price": "69,90 tl"
+    },
+    {
+      "Name": "kabak mix 2 yenilebilir",
+      "Price": "16,90 tl"
+    },
+    {
+      "Name": "kabak bal hokkaido",
+      "Price": "6,99 tl"
+    },
+    {
+      "Name": "kabak paket",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "kabak dolmalık kg",
+      "Price": "38,90 tl"
+    },
+    {
+      "Name": "mantar 300 g",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "mantar i̇stiridye 250 g",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "mantar 300 g",
+      "Price": "22,50 tl"
+    },
+    {
+      "Name": "dilim mantar 400 g",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "mantar kestane 350 g",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "mantar izgaralık 1000 g",
+      "Price": "69,90 tl"
+    },
+    {
+      "Name": "mantar shitake 200 g",
+      "Price": "59,90 tl"
+    },
+    {
+      "Name": "mantar beyaz 400 g",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "marul adet",
+      "Price": "24,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış marul mix salata 170 g",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış yaprak marul 250 g",
+      "Price": "24,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış kıvırcık marul 150 g",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "erüst çıtır marul 100 g",
+      "Price": "35,90 tl"
+    },
+    {
+      "Name": "nane adet",
+      "Price": "11,90 tl"
+    },
+    {
+      "Name": "patates taze kg",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "tatlı patates i̇thal kg",
+      "Price": "99,95 tl"
+    },
+    {
+      "Name": "patates file  kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "organik patates kg",
+      "Price": "52,90 tl"
+    },
+    {
+      "Name": "patates kızartmalık file",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "roka adet",
+      "Price": "11,90 tl"
+    },
+    {
+      "Name": "erüst baby roka 125 g",
+      "Price": "33,90 tl"
+    },
+    {
+      "Name": "soğan yeni hasat kg",
+      "Price": "8,90 tl"
+    },
+    {
+      "Name": "taze soğan demet",
+      "Price": "16,90 tl"
+    },
+    {
+      "Name": "file soğan kg",
+      "Price": "15,90 tl"
+    },
+    {
+      "Name": "soğan arpacık kg",
+      "Price": "48,90 tl"
+    },
+    {
+      "Name": "soğan kuru kg",
+      "Price": "25,90 tl"
+    },
+    {
+      "Name": "soyulmuş arpacık soğan 250 g adet",
+      "Price": "74,90 tl"
+    },
+    {
+      "Name": "organik kuru soğan",
+      "Price": "52,90 tl"
+    },
+    {
+      "Name": "kuru soğan kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "dereotu adet",
+      "Price": "11,90 tl"
+    },
+    {
+      "Name": "maydanoz adet",
+      "Price": "3,99 tl"
+    },
+    {
+      "Name": "erüst frenk maydanoz adet",
+      "Price": "25,90 tl"
+    },
+    {
+      "Name": "çalı fasulye kg",
+      "Price": "38,90 tl"
+    },
+    {
+      "Name": "taze fasulye kg",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "fasulye ayşe kadın kg",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "eurofresh temizlenmiş yıkanmış fasulye 500 g",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "pancar organik",
+      "Price": "38,90 tl"
+    },
+    {
+      "Name": "soyulmuş haşlanmış pancar 500 g adet",
+      "Price": "89,90 tl"
+    }
   ]
 }
