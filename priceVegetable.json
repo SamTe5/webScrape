@@ -138,5 +138,171 @@
       "Name": "yeşi̇l soğan demet *adet*",
       "Price": "₺7,95"
     }
+  ],
+  "migros": [
+    {
+      "Name": "domates kg",
+      "Price": "22,90 tl"
+    },
+    {
+      "Name": "domates salkım kg",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "domates kokteyl kg",
+      "Price": "28,90 tl"
+    },
+    {
+      "Name": "domates pembe kg",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "migros havuç beypazarı paket kg",
+      "Price": "42,90 tl"
+    },
+    {
+      "Name": "havuç çıtır 250 g paket adet",
+      "Price": "14,90 tl"
+    },
+    {
+      "Name": "kabak sakız kg",
+      "Price": "18,50 tl"
+    },
+    {
+      "Name": "nane adet",
+      "Price": "11,90 tl"
+    },
+    {
+      "Name": "patates yeni mahsul kg",
+      "Price": "15,75 tl"
+    },
+    {
+      "Name": "patates taze mini kg",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "roka demet",
+      "Price": "11,90 tl"
+    },
+    {
+      "Name": "soğan taze demet",
+      "Price": "16,90 tl"
+    },
+    {
+      "Name": "soğan kuru (yeni mahsul) kg",
+      "Price": "9,90 tl"
+    },
+    {
+      "Name": "maydanoz adet",
+      "Price": "7,95 tl"
+    },
+    {
+      "Name": "fasulye ayşe kadın kg",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "pancar kg",
+      "Price": "15,90 tl"
+    },
+    {
+      "Name": "domates cherry 250 g erüst",
+      "Price": "24,50 tl"
+    },
+    {
+      "Name": "domates kokteyl 500 g erüst",
+      "Price": "24,50 tl"
+    },
+    {
+      "Name": "tatlı domates 250 g paket adet",
+      "Price": "16,90 tl"
+    },
+    {
+      "Name": "migros mantar 400 g",
+      "Price": "33,90 tl"
+    },
+    {
+      "Name": "mantar kestane paket 350 g",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "marul adet",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış marul mix salata 170 gr",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "patates tatlı i̇thal kg",
+      "Price": "59,90 tl"
+    },
+    {
+      "Name": "fasulye çalı paket kg",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "fasulye barbunya kg",
+      "Price": "56,90 tl"
+    },
+    {
+      "Name": "erüst mini mini domates 250 g",
+      "Price": "10,50 tl"
+    },
+    {
+      "Name": "garliko kurutulmuş domates 200 g paket adet",
+      "Price": "74,90 tl"
+    },
+    {
+      "Name": "tasconı marine kuru domates 100 g",
+      "Price": "37,90 tl"
+    },
+    {
+      "Name": "domates kurusu 100 g",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "eurofresh havuç - turp karışımı 300 gr",
+      "Price": "27,90 tl"
+    },
+    {
+      "Name": "müpa mantar shiitake 200 g",
+      "Price": "55,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış yaprak marul 250g",
+      "Price": "27,90 tl"
+    },
+    {
+      "Name": "erüst marul çıtır 100 g",
+      "Price": "42,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış kıvırcık marul 150 gr",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "migros seçilmiş patates kumpir 3 kg adet",
+      "Price": "74,90 tl"
+    },
+    {
+      "Name": "spesiyal patates file kg",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "roka mini 125 g erüst",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "spesiyal soğan file kg",
+      "Price": "22,90 tl"
+    },
+    {
+      "Name": "soğan salam file kg",
+      "Price": "24,90 tl"
+    },
+    {
+      "Name": "agrotalya haşlanmış kırmızı pancar 500 g",
+      "Price": "89,90 tl"
+    }
   ]
 }

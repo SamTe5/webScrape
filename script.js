@@ -303,7 +303,7 @@ const fs = require('fs');
   let newDataN = dataNVS.flat()
 
   //Migros
-/*
+
   let dataMV = [];
   for (let m = 1; m < 4; m++) {
     await page.goto(`https://www.migros.com.tr/sebze-c-66?sayfa=${m}&sirala=cok-satanlar`)
@@ -312,36 +312,40 @@ const fs = require('fs');
 
 
 
-    const pricesM = await page.evaluate(() => {
-      const eventsM = document.querySelectorAll(".mdc-card");
-      const fruits = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma misket", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
-      const pricesM = [];
+    const pricesMV = await page.evaluate(() => {
+      const eventsMV = document.querySelectorAll(".mdc-card");
+      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+      const pricesMV = [];
 
-      for (let x = 0; x < fruits.length; x++) {
-        for (let i = 0; i < eventsM.length; i++) {
-          let urunM = eventsM[i].querySelector(".product-name").innerText.toLowerCase().includes(fruits[x]);
+      for (let x = 0; x < vegetables.length; x++) {
+        for (let i = 0; i < eventsMV.length; i++) {
+          let urunMV = eventsMV[i].querySelector(".product-name").innerText.toLowerCase().includes(vegetables[x]);
 
-          if (urunM == true) {
-            pricesM.push({
-              Name: eventsM[i].querySelector(".product-name").innerText.toLowerCase(),
-              Price: eventsM[i].querySelector(".amount").innerText.toLowerCase()
+          if (urunMV == true) {
+            pricesMV.push({
+              Name: eventsMV[i].querySelector(".product-name").innerText.toLowerCase(),
+              Price: eventsMV[i].querySelector(".amount").innerText.toLowerCase()
             });
           }
         }
       }
 
-      return pricesM;
+      return pricesMV;
     });
 
-    dataM.push(pricesM);
+    dataMV.push(pricesMV);
 
   }
+   let newDataMV = dataMV.flat()
 
-*/
+
+
 
   let birleşikVeriSebze={
     erenler:dataEV,
-    niktas:newDataN
+    niktas:newDataN,
+    migros:newDataMV
   }
 
 
