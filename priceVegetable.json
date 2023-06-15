@@ -6,7 +6,7 @@
     },
     {
       "Name": "domates kg.",
-      "Price": "22,95 ₺"
+      "Price": "21,95 ₺"
     },
     {
       "Name": "domates organi̇k",
@@ -29,16 +29,12 @@
       "Price": "14,95 ₺"
     },
     {
-      "Name": "nane bağ [manav]",
-      "Price": "4,95 ₺"
-    },
-    {
       "Name": "patlican antalya kg",
       "Price": "13,95 ₺"
     },
     {
       "Name": "patates taze kg",
-      "Price": "17,95 ₺"
+      "Price": "18,95 ₺"
     },
     {
       "Name": "roka bağ.",
@@ -60,23 +56,23 @@
   "niktas": [
     {
       "Name": "domates antalya *kg*",
-      "Price": "₺18,95"
+      "Price": "₺21,95"
     },
     {
       "Name": "domates cherry *kg*",
-      "Price": "₺23,95"
+      "Price": "₺25,95"
     },
     {
       "Name": "domates eko *kg*",
-      "Price": "₺15,95"
+      "Price": "₺19,95"
     },
     {
       "Name": "domates pembe (ayaş) *kg*",
-      "Price": "₺24,95"
+      "Price": "₺27,95"
     },
     {
       "Name": "domates salkim kutu *kg*",
-      "Price": "₺19,95"
+      "Price": "₺22,95"
     },
     {
       "Name": "havuç *açik*",
@@ -100,7 +96,7 @@
     },
     {
       "Name": "patlican *kg*",
-      "Price": "₺17,95"
+      "Price": "₺13,95"
     },
     {
       "Name": "patates taze *kg*",
@@ -112,7 +108,7 @@
     },
     {
       "Name": "salatalik *kg*",
-      "Price": "₺14,95"
+      "Price": "₺9,95"
     },
     {
       "Name": "salatalik si̇lor *kg*",
@@ -140,6 +136,30 @@
     }
   ],
   "migros": [
+    {
+      "Name": "biber kırmızı kg",
+      "Price": "32,90 tl"
+    },
+    {
+      "Name": "biber çarliston kg",
+      "Price": "23,90 tl"
+    },
+    {
+      "Name": "biber köy usulü kg",
+      "Price": "31,90 tl"
+    },
+    {
+      "Name": "biber dolmalık kg",
+      "Price": "18,90 tl"
+    },
+    {
+      "Name": "biber sivri kg",
+      "Price": "16,90 tl"
+    },
+    {
+      "Name": "biber sivri kıl kg",
+      "Price": "49,90 tl"
+    },
     {
       "Name": "domates kg",
       "Price": "22,90 tl"
@@ -169,12 +189,16 @@
       "Price": "18,50 tl"
     },
     {
-      "Name": "nane adet",
-      "Price": "11,90 tl"
+      "Name": "kültür mantarı 400 g paket",
+      "Price": "28,90 tl"
     },
     {
-      "Name": "patates yeni mahsul kg",
-      "Price": "15,75 tl"
+      "Name": "migros mantar 400 g",
+      "Price": "33,90 tl"
+    },
+    {
+      "Name": "nane adet",
+      "Price": "11,90 tl"
     },
     {
       "Name": "patates taze mini kg",
@@ -205,6 +229,14 @@
       "Price": "15,90 tl"
     },
     {
+      "Name": "biber acı şili kırmızı kg",
+      "Price": "34,90 tl"
+    },
+    {
+      "Name": "biber dolma amerikan kg",
+      "Price": "49,90 tl"
+    },
+    {
       "Name": "domates cherry 250 g erüst",
       "Price": "24,50 tl"
     },
@@ -217,8 +249,8 @@
       "Price": "16,90 tl"
     },
     {
-      "Name": "migros mantar 400 g",
-      "Price": "33,90 tl"
+      "Name": "mantar i̇stridye 200 g",
+      "Price": "29,90 tl"
     },
     {
       "Name": "mantar kestane paket 350 g",
@@ -227,10 +259,6 @@
     {
       "Name": "marul adet",
       "Price": "26,90 tl"
-    },
-    {
-      "Name": "eurofresh yıkanmış marul mix salata 170 gr",
-      "Price": "29,90 tl"
     },
     {
       "Name": "patates tatlı i̇thal kg",
@@ -245,6 +273,10 @@
       "Price": "56,90 tl"
     },
     {
+      "Name": "siha kurutulmuş dolmalık biber 25'li paket",
+      "Price": "89,90 tl"
+    },
+    {
       "Name": "erüst mini mini domates 250 g",
       "Price": "10,50 tl"
     },
@@ -253,20 +285,16 @@
       "Price": "74,90 tl"
     },
     {
-      "Name": "tasconı marine kuru domates 100 g",
-      "Price": "37,90 tl"
-    },
-    {
-      "Name": "domates kurusu 100 g",
-      "Price": "49,90 tl"
-    },
-    {
       "Name": "eurofresh havuç - turp karışımı 300 gr",
       "Price": "27,90 tl"
     },
     {
       "Name": "müpa mantar shiitake 200 g",
       "Price": "55,90 tl"
+    },
+    {
+      "Name": "eurofresh yıkanmış marul mix salata 170 gr",
+      "Price": "29,90 tl"
     },
     {
       "Name": "eurofresh yıkanmış yaprak marul 250g",
@@ -306,6 +334,26 @@
     }
   ],
   "sok": [
+    {
+      "Name": "çarliston biber kg.",
+      "Price": "19,45"
+    },
+    {
+      "Name": "biber dolma kg",
+      "Price": "24,90"
+    },
+    {
+      "Name": "biber sivri kg.",
+      "Price": "16,90"
+    },
+    {
+      "Name": "çarliston biber kg.",
+      "Price": "19,45"
+    },
+    {
+      "Name": "kırmızı biber kg.",
+      "Price": "32,90"
+    },
     {
       "Name": "havuç kg",
       "Price": "29,90"
@@ -364,6 +412,22 @@
     }
   ],
   "a101": [
+    {
+      "Name": "kırmızı biber paket - 300 g",
+      "Price": "₺11,95"
+    },
+    {
+      "Name": "biber dolma - kg",
+      "Price": "₺19,90"
+    },
+    {
+      "Name": "biber çarliston - kg",
+      "Price": "₺19,50"
+    },
+    {
+      "Name": "biber sivri - kg",
+      "Price": "₺16,90"
+    },
     {
       "Name": "domates - kg",
       "Price": "₺19,75"
@@ -427,6 +491,138 @@
   ],
   "carreforsa": [
     {
+      "Name": "çarliston biber kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "çarliston biber 400 g",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "dolma biber kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "renkli dolma biber kg",
+      "Price": "43,90 tl"
+    },
+    {
+      "Name": "kurutulmus dolma biber adet",
+      "Price": "44,90 tl"
+    },
+    {
+      "Name": "dolma biber paket",
+      "Price": "59,90 tl"
+    },
+    {
+      "Name": "kapya biber kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "sivri biber kg",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "sivri biber acı pazar kg",
+      "Price": "23,90 tl"
+    },
+    {
+      "Name": "kıl sivri biber paket",
+      "Price": "79,90 tl"
+    },
+    {
+      "Name": "kapya biber kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "dolma biber kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "çarliston biber kg",
+      "Price": "21,90 tl"
+    },
+    {
+      "Name": "sivri biber kg",
+      "Price": "17,90 tl"
+    },
+    {
+      "Name": "köy biberi kg",
+      "Price": "27,90 tl"
+    },
+    {
+      "Name": "kıl biber kg",
+      "Price": "49,90 tl"
+    },
+    {
+      "Name": "renkli dolma biber kg",
+      "Price": "43,90 tl"
+    },
+    {
+      "Name": "biberiye 25 gr",
+      "Price": "22,90 tl"
+    },
+    {
+      "Name": "biber top",
+      "Price": "29,90 tl"
+    },
+    {
+      "Name": "kurutulmus acı biber paket",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "cin biber 100 g adet",
+      "Price": "22,90 tl"
+    },
+    {
+      "Name": "sivri biber acı pazar kg",
+      "Price": "23,90 tl"
+    },
+    {
+      "Name": "biber lombardi turşuluk",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "kurutulmus dolma biber adet",
+      "Price": "44,90 tl"
+    },
+    {
+      "Name": "kıl sivri biber paket",
+      "Price": "79,90 tl"
+    },
+    {
+      "Name": "biber balık kg",
+      "Price": "26,90 tl"
+    },
+    {
+      "Name": "biber turşuluk kg",
+      "Price": "28,90 tl"
+    },
+    {
+      "Name": "çarliston biber 400 g",
+      "Price": "12,90 tl"
+    },
+    {
+      "Name": "biber kamber kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "dolma biber paket",
+      "Price": "59,90 tl"
+    },
+    {
+      "Name": "biber kapya paket gurme",
+      "Price": "59,90 tl"
+    },
+    {
+      "Name": "biber sivri paket",
+      "Price": "39,90 tl"
+    },
+    {
+      "Name": "biber çarliston paket",
+      "Price": "39,90 tl"
+    },
+    {
       "Name": "salkım domates kg",
       "Price": "12,90 tl"
     },
@@ -483,8 +679,12 @@
       "Price": "39,90 tl"
     },
     {
+      "Name": "organik domates kg",
+      "Price": "64,90 tl"
+    },
+    {
       "Name": "havuç kg",
-      "Price": "49,90 tl"
+      "Price": "42,90 tl"
     },
     {
       "Name": "eurofresh ayıklanmış barbunya havuç 500 g",
@@ -504,7 +704,7 @@
     },
     {
       "Name": "sakız kabak kg",
-      "Price": "18,90 tl"
+      "Price": "19,90 tl"
     },
     {
       "Name": "kabak organik",
@@ -519,12 +719,12 @@
       "Price": "16,90 tl"
     },
     {
-      "Name": "kabak bal hokkaido",
-      "Price": "6,99 tl"
-    },
-    {
       "Name": "kabak paket",
       "Price": "29,90 tl"
+    },
+    {
+      "Name": "kabak bal hokkaido",
+      "Price": "6,99 tl"
     },
     {
       "Name": "kabak dolmalık kg",
@@ -564,7 +764,7 @@
     },
     {
       "Name": "marul adet",
-      "Price": "24,90 tl"
+      "Price": "26,90 tl"
     },
     {
       "Name": "eurofresh yıkanmış marul mix salata 170 g",

@@ -76,7 +76,7 @@
     },
     {
       "Name": "elma gransi̇mi̇t *kg*",
-      "Price": "₺17,95"
+      "Price": "₺19,95"
     },
     {
       "Name": "elma starki̇n *kg*",
@@ -92,7 +92,7 @@
     },
     {
       "Name": "kavun kasa *kg*",
-      "Price": "₺14,95"
+      "Price": "₺18,95"
     },
     {
       "Name": "kavun çi̇l *kg*",
@@ -109,8 +109,16 @@
       "Price": "14,90 tl"
     },
     {
+      "Name": "karpuz kg",
+      "Price": "6,90 tl"
+    },
+    {
       "Name": "karpuz mini kg",
       "Price": "14,90 tl"
+    },
+    {
+      "Name": "muz yerli kg",
+      "Price": "29,25 tl"
     },
     {
       "Name": "muz i̇thal kg",
@@ -146,6 +154,10 @@
     },
     {
       "Name": "portakal kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "şeftali kg",
       "Price": "19,90 tl"
     },
     {
@@ -199,10 +211,6 @@
     {
       "Name": "excelente altın çilek paket 100 g",
       "Price": "69,90 tl"
-    },
-    {
-      "Name": "verita çarkıfelek passıon fruıt 3’lü paket",
-      "Price": "79,90 tl"
     }
   ],
   "carreforsa": [
@@ -216,11 +224,7 @@
     },
     {
       "Name": "siyah karpuz kg",
-      "Price": "12,90 tl"
-    },
-    {
-      "Name": "mini karpuz kg",
-      "Price": "15,90 tl"
+      "Price": "13,50 tl"
     },
     {
       "Name": "yerli muz kg",
@@ -239,6 +243,14 @@
       "Price": "39,90 tl"
     },
     {
+      "Name": "valensiya portakal kg",
+      "Price": "19,90 tl"
+    },
+    {
+      "Name": "şeftali  kg",
+      "Price": "17,90 tl"
+    },
+    {
       "Name": "şeftali yassı",
       "Price": "19,90 tl"
     },
@@ -255,12 +267,16 @@
       "Price": "44,95 tl"
     },
     {
+      "Name": "mini karpuz kg",
+      "Price": "15,90 tl"
+    },
+    {
       "Name": "i̇thal muz kg",
       "Price": "54,90 tl"
     },
     {
       "Name": "erik papaz kg",
-      "Price": "45,90 tl"
+      "Price": "46,90 tl"
     }
   ],
   "sok": [
@@ -349,6 +365,10 @@
     {
       "Name": "portakal sıkma file - kg",
       "Price": "₺16,50"
+    },
+    {
+      "Name": "şeftali - kg",
+      "Price": "₺29,90"
     },
     {
       "Name": "kavun - 4,5 kg",

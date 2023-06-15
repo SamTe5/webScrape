@@ -2,8 +2,8 @@ fetch("priceVegetable.json")
   .then(response => response.json())
   .then(value => {
 
-    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"].sort()
+    const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"].sort()
     let newVegetables = {}
 
    
@@ -77,8 +77,8 @@ fetch("priceVegetable.json")
       }
     }
 
-    const vegetablesum = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+    const vegetablesum = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
     localStorage.setItem("prices",JSON.stringify(newVegetables))
     localStorage.setItem("fruits",JSON.stringify(vegetablesum))
 

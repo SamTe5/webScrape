@@ -245,8 +245,8 @@ const fs = require('fs');
   const dataEV = await page.evaluate(() => {
     const eventsErenlerV = document.querySelectorAll(".product-layout")
     const priceEv = []
-    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+    const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber","biber", "cherry domates", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
 
     for (let x = 0; x < vegetables.length; x++) {
       for (let i = 0; i < eventsErenlerV.length; i++) {
@@ -277,8 +277,8 @@ const fs = require('fs');
     const dataNV = await page.evaluate(() => {
       const eventsNiktasV = document.querySelectorAll(".details")
       const priceNv = []
-      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+      const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates","biber", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
 
       for (let x = 0; x < vegetables.length; x++) {
         for (let i = 0; i < eventsNiktasV.length; i++) {
@@ -314,8 +314,8 @@ const fs = require('fs');
 
     const pricesMV = await page.evaluate(() => {
       const eventsMV = document.querySelectorAll(".mdc-card");
-      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-        "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+      const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates","biber", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
       const pricesMV = [];
 
       for (let x = 0; x < vegetables.length; x++) {
@@ -348,8 +348,8 @@ const fs = require('fs');
   const dataSV = await page.evaluate(() => {
     const eventsSV = document.querySelectorAll(".link-to-pages-productDetail")
     const pricesSV = []
-    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+    const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates","biber", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
 
 
     for (let x = 0; x < vegetables.length; x++) {
@@ -381,8 +381,8 @@ const fs = require('fs');
   const dataAV = await page.evaluate(() => {
     const eventsAV = document.querySelectorAll(".product-card")
     const pricesAV = []
-    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+    const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates","biber", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
 
 
     for (let x = 0; x < vegetables.length; x++) {
@@ -415,8 +415,8 @@ const fs = require('fs');
 
     const dataCV = await page.evaluate(() => {
       const eventsCV = document.querySelectorAll(".hover-box");
-      const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
-      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+      const vegetables = ["bahçe biber", "çarliston biber", "dolma biber", "kapya biber", "sivri biber", "cherry domates","biber", "domates", "organik domates", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor salatalik", "soğan", "dereotu", "maydanoz", "yeşil soğan", "salkim domates", "fasulye", "pancar"]
       const pricesCV = [];
 
 
