@@ -280,18 +280,18 @@ const fs = require('fs');
       const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
         "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
 
-        for (let x = 0; x < vegetables.length; x++) {
-          for (let i = 0; i < eventsNiktasV.length; i++) {
-            let urunNV = eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase().includes(vegetables[x]);
-    
-            if (urunNV == true) {
-              priceNv.push({
-                Name: eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase(),
-                Price: eventsNiktasV[i].querySelector(".actual-price").innerText.toLowerCase()
-              });
-            }
+      for (let x = 0; x < vegetables.length; x++) {
+        for (let i = 0; i < eventsNiktasV.length; i++) {
+          let urunNV = eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase().includes(vegetables[x]);
+
+          if (urunNV == true) {
+            priceNv.push({
+              Name: eventsNiktasV[i].querySelector(".product-title").innerText.toLowerCase(),
+              Price: eventsNiktasV[i].querySelector(".actual-price").innerText.toLowerCase()
+            });
           }
         }
+      }
 
       return priceNv
     })
@@ -337,15 +337,96 @@ const fs = require('fs');
     dataMV.push(pricesMV);
 
   }
-   let newDataMV = dataMV.flat()
+
+  let newDataMV = dataMV.flat()
+
+  //Sok
+
+  await page.goto("https://www.sokmarket.com.tr/meyve-sebze-c-1396")
+
+
+  const dataSV = await page.evaluate(() => {
+    const eventsSV = document.querySelectorAll(".link-to-pages-productDetail")
+    const pricesSV = []
+    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+
+
+    for (let x = 0; x < vegetables.length; x++) {
+      for (let i = 0; i < eventsSV.length; i++) {
+        let urunSV = eventsSV[i].querySelector(".content-title").innerText.toLowerCase().includes(vegetables[x])
+
+        if (urunSV == true) {
+          pricesSV.push({
+            Name: eventsSV[i].querySelector(".content-title").innerText.toLowerCase(),
+            Price: eventsSV[i].querySelector(".pricetag").innerText.toLowerCase()
+          })
+        }
+
+
+      }
+    }
+
+
+
+    return pricesSV
+  })
+
+  //A101
+
+
+  await page.goto("https://www.a101.com.tr/market/meyve-sebze/")
+
+
+  const dataAV = await page.evaluate(() => {
+    const eventsAV = document.querySelectorAll(".product-card")
+    const pricesAV = []
+    const vegetables = ["bahçe b.", "çarliston b.", "dolma b.", "kapya b.", "sivri b.", "cherry d.", "domates", "organik d.", "havuç", "kabak", "kirmizi lahana", "limon", "mantar", "marul", "nane",
+      "patlican", "patates", "roka", "salatalik", "silor s.", "soğan", "dereotu", "maydanoz", "yeşil s.", "salkim d.", "fasulye", "pancar"]
+
+
+    for (let x = 0; x < vegetables.length; x++) {
+      for (let i = 0; i < eventsAV.length; i++) {
+        let urunAV = eventsAV[i].querySelector(".name").innerText.toLowerCase().includes(vegetables[x])
+
+        if (urunAV == true) {
+          pricesAV.push({
+            Name: eventsAV[i].querySelector(".name").innerText.toLowerCase(),
+            Price: eventsAV[i].querySelector(".current").innerText.toLowerCase()
+          })
+        }
+
+
+      }
+    }
+
+
+
+    return pricesAV
+  })
+
+  //Carreforsa
+
+  
 
 
 
 
-  let birleşikVeriSebze={
-    erenler:dataEV,
-    niktas:newDataN,
-    migros:newDataMV
+
+
+
+
+
+
+
+
+  let birleşikVeriSebze = {
+    erenler: dataEV,
+    niktas: newDataN,
+    migros: newDataMV,
+    sok: dataSV,
+    a101:dataAV
+
   }
 
 

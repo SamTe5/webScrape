@@ -304,5 +304,125 @@
       "Name": "agrotalya haşlanmış kırmızı pancar 500 g",
       "Price": "89,90 tl"
     }
+  ],
+  "sok": [
+    {
+      "Name": "havuç kg",
+      "Price": "29,90"
+    },
+    {
+      "Name": "kabak sakız kg.",
+      "Price": "24,50"
+    },
+    {
+      "Name": "mantar 300 gr pkt",
+      "Price": "25,90"
+    },
+    {
+      "Name": "i̇nci patates 1000gr",
+      "Price": "36,00"
+    },
+    {
+      "Name": "i̇nci elma dilim patates 1 kg",
+      "Price": "32,50\n27,50"
+    },
+    {
+      "Name": "roka demet",
+      "Price": "9,90"
+    },
+    {
+      "Name": "roka demet",
+      "Price": "9,90"
+    },
+    {
+      "Name": "i̇nci soğan halkası 450 gr",
+      "Price": "22,50"
+    },
+    {
+      "Name": "soğan taze demet",
+      "Price": "14,90"
+    },
+    {
+      "Name": "dereotu dmt.",
+      "Price": "11,90"
+    },
+    {
+      "Name": "dereotu dmt.",
+      "Price": "11,90"
+    },
+    {
+      "Name": "maydanoz dmt.",
+      "Price": "6,95"
+    },
+    {
+      "Name": "maydanoz dmt.",
+      "Price": "6,95"
+    },
+    {
+      "Name": "çalı fasulye kg.",
+      "Price": "34,90"
+    }
+  ],
+  "a101": [
+    {
+      "Name": "domates - kg",
+      "Price": "₺19,75"
+    },
+    {
+      "Name": "domates kokteyl paket - 500 g",
+      "Price": "₺15,90"
+    },
+    {
+      "Name": "domates salkım - kg",
+      "Price": "₺24,75"
+    },
+    {
+      "Name": "şeker domates bardak paket - adet",
+      "Price": "₺14,75"
+    },
+    {
+      "Name": "havuç paket - 350 g",
+      "Price": "₺16,95"
+    },
+    {
+      "Name": "kabak - kg",
+      "Price": "₺18,50"
+    },
+    {
+      "Name": "limon - kg",
+      "Price": "₺18,75"
+    },
+    {
+      "Name": "mantar tabak - 300 g",
+      "Price": "₺16,90"
+    },
+    {
+      "Name": "mantar i̇stiridye paket - 250 g",
+      "Price": "₺29,50"
+    },
+    {
+      "Name": "marul göbek - adet",
+      "Price": "₺17,90"
+    },
+    {
+      "Name": "marul - adet",
+      "Price": "₺14,95"
+    },
+    {
+      "Name": "patates - kg",
+      "Price": "₺15,75"
+    },
+    {
+      "Name": "soğan - kg",
+      "Price": "₺11,75"
+    },
+    {
+      "Name": "fasulye - kg",
+      "Price": "₺29,50"
+    },
+    {
+      "Name": "pancar paket - 500 g",
+      "Price": "₺29,95"
+    }
   ]
 }
