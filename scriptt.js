@@ -18,7 +18,33 @@ fetch("priceE.json")
         carreforsa: []
 
       }
+/*
+      const markets = {
+        erenler: value.erenler,
+        niktas: value.niktas,
+        migros: value.migros,
+        sok: value.sok,
+        a101: value.a101,
+        carreforsa: value.carreforsa
+      };
 
+
+      for (const marketName in markets) {
+        const marketFruits = markets[marketName];
+        
+        for (const marketFruit of marketFruits) {
+          if (marketFruit.Name.includes(fruits)) {
+            newFruits[fruits][marketName].push({
+              Name: marketFruit.Name,
+              Price: marketFruit.Price
+            });
+          }
+        }
+      }
+         
+
+    */
+  
     
 
       for (const erenlerMeyve of value.erenler) {
@@ -74,7 +100,13 @@ fetch("priceE.json")
           })
         }
       }
+
+      
     }
+
+    console.log(newFruits)
+
+ 
 
     const fruitsum = ["avokado", "karpuz", "muz", "kivi", "armut santa", "armut deveci", "ananas", "elma golden", "elma gran", "elma stark", "portakal", "şeftali", "kavun", "yeni d", "lek", "erik"]
     localStorage.setItem("prices",JSON.stringify(newFruits))

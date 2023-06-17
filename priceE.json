@@ -17,28 +17,16 @@
       "Price": "32,95 ₺"
     },
     {
-      "Name": "elma golden lüx",
-      "Price": "17,95 ₺"
-    },
-    {
-      "Name": "elma starki̇ng lüx kg",
-      "Price": "16,95 ₺"
-    },
-    {
       "Name": "şeftali̇ kg",
       "Price": "29,95 ₺"
     },
     {
       "Name": "kavun çi̇l kg",
-      "Price": "16,95 ₺"
+      "Price": "14,95 ₺"
     },
     {
       "Name": "kavun sari kg",
-      "Price": "16,95 ₺"
-    },
-    {
-      "Name": "çi̇lek kg [1]",
-      "Price": "34,95 ₺"
+      "Price": "17,95 ₺"
     }
   ],
   "niktas": [
@@ -109,20 +97,16 @@
       "Price": "14,90 tl"
     },
     {
+      "Name": "excelente yemeye hazır avokado 2'li paket",
+      "Price": "37,90 tl"
+    },
+    {
       "Name": "karpuz kg",
-      "Price": "6,90 tl"
+      "Price": "4,70 tl"
     },
     {
       "Name": "karpuz mini kg",
       "Price": "14,90 tl"
-    },
-    {
-      "Name": "muz yerli kg",
-      "Price": "29,25 tl"
-    },
-    {
-      "Name": "muz i̇thal kg",
-      "Price": "49,90 tl"
     },
     {
       "Name": "doğu karadeniz kivisi kg",
@@ -130,11 +114,7 @@
     },
     {
       "Name": "armut deveci kg",
-      "Price": "29,90 tl"
-    },
-    {
-      "Name": "ananas adet",
-      "Price": "49,90 tl"
+      "Price": "19,90 tl"
     },
     {
       "Name": "elma golden kg",
@@ -146,7 +126,7 @@
     },
     {
       "Name": "elma starking kg",
-      "Price": "22,90 tl"
+      "Price": "19,90 tl"
     },
     {
       "Name": "portakal sıkma file kg",
@@ -158,27 +138,19 @@
     },
     {
       "Name": "şeftali kg",
-      "Price": "19,90 tl"
-    },
-    {
-      "Name": "şeftali nektarin kg",
-      "Price": "36,90 tl"
+      "Price": "17,75 tl"
     },
     {
       "Name": "yassı şeftali kg",
-      "Price": "39,90 tl"
+      "Price": "31,90 tl"
     },
     {
       "Name": "kavun kırkağaç kg",
-      "Price": "17,90 tl"
+      "Price": "12,90 tl"
     },
     {
       "Name": "kavun sera kg",
       "Price": "21,85 tl"
-    },
-    {
-      "Name": "erik papaz kg",
-      "Price": "48,90 tl"
     },
     {
       "Name": "erik angelica kg",
@@ -187,10 +159,6 @@
     {
       "Name": "verita gurme yemeye hazır avokado adet",
       "Price": "42,90 tl"
-    },
-    {
-      "Name": "karpuz çekirdeksiz kg",
-      "Price": "14,90 tl"
     },
     {
       "Name": "del monte meyve salatası 4'lü ananas 113*4 g",
@@ -220,11 +188,11 @@
     },
     {
       "Name": "karpuz kg",
-      "Price": "5,95 tl"
+      "Price": "4,60 tl"
     },
     {
       "Name": "siyah karpuz kg",
-      "Price": "13,50 tl"
+      "Price": "10,90 tl"
     },
     {
       "Name": "yerli muz kg",
@@ -268,7 +236,7 @@
     },
     {
       "Name": "mini karpuz kg",
-      "Price": "15,90 tl"
+      "Price": "12,90 tl"
     },
     {
       "Name": "i̇thal muz kg",
@@ -276,7 +244,7 @@
     },
     {
       "Name": "erik papaz kg",
-      "Price": "46,90 tl"
+      "Price": "45,90 tl"
     }
   ],
   "sok": [
@@ -290,19 +258,15 @@
     },
     {
       "Name": "yerli muz kg",
-      "Price": "34,90"
+      "Price": "31,90\n29,90"
     },
     {
       "Name": "kivi kg",
-      "Price": "29,90"
+      "Price": "39,90"
     },
     {
       "Name": "armut deveci kg",
       "Price": "29,90"
-    },
-    {
-      "Name": "elma golden kg",
-      "Price": "19,90"
     },
     {
       "Name": "elma granny kg",
@@ -310,15 +274,19 @@
     },
     {
       "Name": "elma starking kg.",
-      "Price": "19,90"
+      "Price": "26,90"
     },
     {
       "Name": "galya kavun",
       "Price": "24,90"
     },
     {
+      "Name": "kavun kırkağaç kg",
+      "Price": "9,95"
+    },
+    {
       "Name": "çilek dökme kg",
-      "Price": "34,90"
+      "Price": "31,90"
     },
     {
       "Name": "çilek paket 500 gr",
@@ -336,7 +304,7 @@
     },
     {
       "Name": "karpuz - kg",
-      "Price": "₺5,95"
+      "Price": "₺4,75"
     },
     {
       "Name": "karpuz çekirdeksiz - kg",
@@ -372,7 +340,7 @@
     },
     {
       "Name": "kavun - 4,5 kg",
-      "Price": "₺14,95"
+      "Price": "₺9,95"
     },
     {
       "Name": "erik paket - 250 g",
